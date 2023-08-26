@@ -20,5 +20,4 @@ const store = configureStore({
 
 export default store;
 
-// export const server = "http://localhost:8000/api/v1"
-export const server = "https://reudemy-server.onrender.com/api/v1"
+export const server = process.env.REACT_APP_BACKEND_URI
